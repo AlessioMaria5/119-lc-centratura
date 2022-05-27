@@ -1,0 +1,24 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    display:flex; /* occuperà tutto lo spazio a disposizione, come un elemento di tipo block, ma internamente come un flex */
+    border: solid 5px blue;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.square {
+
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
