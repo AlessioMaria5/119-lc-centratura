@@ -22,3 +22,26 @@
     height: 200px;
     background-color: red;
 }
+
+
+/* HEADER HEADER HEADER HEADER HEADER HEADER */
+
+header {
+
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+.menustyle {
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.items {
+
+    margin-left: 5px;
+}
